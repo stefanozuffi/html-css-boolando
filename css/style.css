@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+/* #region Debug */
+
+.debug * {
+    border: 1px dashed red;
+}
+
+.debug .in-header {
+    min-height: 80px
+}
+
+.debug .in-main {
+    min-height: 500px;
+}
+
+.debug .card {
+    height: 250px;
+    width: 30%;
+    background-color: bisque;
+}
+
+.debug .in-footer {
+    min-height: 80px;
+}
+
+/* #endregion Debug */
+
+
+
+
+/* #region Header */
+header {
+    background-color: orange;
+}
+
+
+/* #endregion Header */
+
+
+/* #region Main*/
+.in-main {
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 5px;
+}
+/* #endregion Main*/
+
+/* #region Footer*/
+footer {
+    background-color: black; 
+}
+/* #endregion Footer*/
