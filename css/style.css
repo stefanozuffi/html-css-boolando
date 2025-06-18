@@ -144,6 +144,10 @@ header {
     z-index: 1;
 }
 
+.heart-label:hover {
+    color: red;
+}
+
 .gen-labels {
    position: absolute;
    bottom: 50px; 
