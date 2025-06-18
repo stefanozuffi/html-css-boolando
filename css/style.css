@@ -17,9 +17,9 @@
 
 /* #region Debug */
 
-.debug * {
+/* .debug * {
     border: 1px dashed red;
-} 
+}  */
 
 .debug .in-header {
     min-height: 50px
@@ -111,4 +111,29 @@ header {
 footer {
     background-color: black; 
 }
+
+.in-footer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-flex {
+    gap: 7px;
+}
+
+h4, h5 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.footer-links {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-links > * {
+    color: white;
+}
+
 /* #endregion Footer*/
