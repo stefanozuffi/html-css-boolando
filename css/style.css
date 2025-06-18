@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -35,10 +36,15 @@
 }
 
 .debug .card {
-    height: 250px;
+    min-height: 245px;
     width: 30%;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
+
+/* .debug .product-info {
+  background-color: azure;
+} */
+
 
 .debug .in-footer {
     min-height: 80px;
@@ -104,6 +110,83 @@ header {
     align-items: center; 
     flex-wrap: wrap;
     gap: 5px;
+}
+
+.card {
+    position: relative;
+
+}
+
+.model {
+    width: 100%;
+}
+
+/* Labels */
+.heart-label {
+    background-color: white;
+    width: fit-content;
+    padding: 3px; 
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.gen-labels {
+   position: absolute;
+   bottom: 50px; 
+}
+
+.gen-labels * {
+    color: white;
+    font-size: 8px;
+    width: fit-content;
+    padding: 2px; 
+    margin-right: 2px;
+}
+
+.fifty-percent {
+    background-color: red;
+    width: fit-content;
+}
+
+.sustainability {
+    background-color: green;
+}
+
+
+/* Product's Info */
+.product-info {
+    height: 30px;
+    margin-top: 0;
+    flex-direction: column;
+    position: relative;
+    bottom: 4px;
+}
+
+.product-info > * {
+    font-size: 8px;
+}
+
+.brand, .product-name {
+    display: block;
+}
+
+.brand {
+    font-size: 7px;
+    color: grey;
+}
+
+.product-name {
+    font-weight: 900;
+}
+
+.disc-price {
+    font-weight: 600;
+    color: red;
+}
+
+.orig-price {
+    text-decoration: line-through;
 }
 /* #endregion Main*/
 
