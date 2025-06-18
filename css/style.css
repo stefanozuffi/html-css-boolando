@@ -117,8 +117,20 @@ header {
 
 }
 
-.model {
+.model, .model-hover {
     width: 100%;
+}
+
+/* Hover */
+
+.model-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+} 
+
+.card:hover .model-hover{
+    display: block;
 }
 
 /* Labels */
@@ -129,11 +141,13 @@ header {
     position: absolute;
     top: 5px;
     right: 0;
+    z-index: 1;
 }
 
 .gen-labels {
    position: absolute;
    bottom: 50px; 
+   z-index: 1;
 }
 
 .gen-labels * {
