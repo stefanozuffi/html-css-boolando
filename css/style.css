@@ -1,3 +1,4 @@
+/* #region Generals */
 
 * {
     margin: 0;
@@ -15,48 +16,11 @@
     display: flex;
 }
 
-
-/* #region Debug */
-
-/* .debug * {
-    border: 1px dashed red;
-}  */
-
-.debug .in-header {
-    min-height: 50px
-}
-
-.debug .symbols {
-    min-height: 20px;
-    min-width: 20%;
-}
-
-.debug .in-main {
-    min-height: 500px;
-}
-
-.debug .card {
-    min-height: 245px;
-    width: 32%;
-    /* background-color: bisque; */
-}
-
-/* .debug .product-info {
-  background-color: azure;
-} */
-
-
-.debug .in-footer {
-    min-height: 80px;
-}
-
-/* #endregion Debug */
-
-
-
+/* #endregion Generals */
 
 /* #region Header */
 header {
+    padding: 15px 0;
     background-color: rgb(237, 114, 46);
 }
 
@@ -64,6 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* Categorie */
 .cat-links {
@@ -79,14 +44,13 @@ header {
     color: white;
 }
 
-
 /*  Logo */
 .c-logo {
     width: 20%;
 }
 
 #img-logo {
-    width: 100%;
+    width: 65%;
 }
 
 /* Simboli */
@@ -102,7 +66,6 @@ header {
 
 /* #endregion Header */
 
-
 /* #region Main*/
 .in-main {
     margin: 10px auto;
@@ -113,8 +76,9 @@ header {
 }
 
 .card {
+    min-height: 245px;
+    width: 32%;
     position: relative;
-
 }
 
 .model, .model-hover {
@@ -211,6 +175,7 @@ header {
 /* #region Footer*/
 footer {
     background-color: black; 
+    padding: 25px 0;
 }
 
 .in-footer {
