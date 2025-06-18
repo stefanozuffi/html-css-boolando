@@ -37,7 +37,7 @@
 
 .debug .card {
     min-height: 245px;
-    width: 30%;
+    width: 32%;
     /* background-color: bisque; */
 }
 
@@ -109,7 +109,7 @@ header {
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
 }
 
 .card {
@@ -144,7 +144,7 @@ header {
     margin-right: 2px;
 }
 
-.fifty-percent {
+.discount-percent {
     background-color: red;
     width: fit-content;
 }
